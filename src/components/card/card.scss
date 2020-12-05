@@ -1,0 +1,15 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+    width: 200px;
+    min-height: 200px;
+    padding: 10px 15px;
+
+    background-color: #999;
+
+    &.active {
+        background-color: #3ff;
+    }
+}
